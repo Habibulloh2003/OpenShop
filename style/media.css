@@ -1,0 +1,48 @@
+@media(prefers-color-scheme: dark){
+    :root{
+        --navbar: #FFFFFF;
+        --grey-black:#0C0C0C;
+    }
+    body{
+        background: #313131;
+    }
+    .header-logo{
+        content: url(../images/white-Logo.png);
+    }
+    .header__top-search,
+    .header__top-button{
+        background: transparent;
+    }
+    .black-btn{
+        border: 1px solid #FFFFFF;
+    }
+    .playstataion5-items{
+        content: url(../images/ps5-logo-white.png);
+    }
+    .second-card__link{
+        border: 1px solid #FFFFFF;
+        background: transparent;
+    }
+}    
+@media(max-width:1380px){
+    .grid-cards__inner{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: flex-end;
+        height: auto;
+    }
+    .grid-cards__img:nth-child(1){
+        width: 630px;
+        height: 500px;
+    }
+    .grid-cards__img:nth-child(2){
+        width: 630px;
+        height: 235px;
+    }
+    .grid-cards__img:nth-child(3),
+    .grid-cards__img:nth-child(4){
+        width: 297px;
+        height: 235px;
+    }
+}
